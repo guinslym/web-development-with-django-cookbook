@@ -1,0 +1,32 @@
+Knowledge:
+ ☐ Second Edition: January 2016
+ ☐ 
+
+
+Chapter 1:
+ ☐ The way they layout their Project is too verbose or too long. It's good for Legacy project but for project with one app I don't think we need all that. 
+ ☐ I like the fact that they have manies 'requirements' and 'conf'
+ ☐ Actually, I like the name 'conf' but I still prefer the name 'settings' that I usually adopt in my app.
+ ☐ I'm still confuse with the python 2 ('u,'b) compatibility I don't have python 2 installed on my  local machine
+ ☐ They use a Signals on their app each time an object is save or delete. I like it. But I prefer to log it instead of printing it.
+ ☐ I'm not that into their way to set the static url... it's nice but I need to try it in other project to see if it really worth it
+ ☐ shell: 
+   ☐ import os
+   ☐ STATIC_ULR = from utils.misc import get_git_changeset(os.getcwd())
+ ☐ 
+
+
+ Chapter 2:
+  ☐ They always define an apps.py in their APPS 
+  ☐ Also they load the apps.py with __init__.py
+  ☐ Utils/
+  ☐ I really like their models.py mixin for URL
+  ☐ The metatags mixin are Genious I'm wondering if django-braces or django-extensions have those mixins
+  ☐ I had to put some relative import into myproject/conf/dev.py
+  ☐ 
+  ☐ They should I put the modification of the example in Bold p52 but others no
+  ☐ This project is still a python2 based 'ImportError: No module named 'urlparse'' in python 3 is urllib.parse
+  ☐ I prefer to use django-rosetta instead of the Multilingual Mixin
+
+chapter 3:
+ ☐ 
