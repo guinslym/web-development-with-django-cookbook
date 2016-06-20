@@ -29,4 +29,16 @@ Chapter 1:
   ☐ I prefer to use django-rosetta instead of the Multilingual Mixin
 
 chapter 3:
+ ☐ Chapter3 has a lot of errors in python3 from 'urlparse', to relative_path (.models), 
+ ☐ I like the fact they are tranlating every 'label' (forms.py) and fields 'models.py'
+ ☐ Interesting it's the first time that I see a **save()** method in a Contact form to send email. And they are right the view looks cleaner. I need to adopt that approach
+ ☐ fail silently suppose to be in the brackets
+ ☐ For the Quotes app I prefer to use a django-package instead of PIL to generate thumbnail
+ ☐ When I save forms  in the view I need to pass the files attributes also **InspirationalQuoteForm(data=request.POST, files=request.FILES) ***
+ ☐ Bulletin Board.models is a great example of how to use django-crispy-forms (image pg. 97)
  ☐ 
+ ☐ Do up to chapter 3
+ ☐ Their Search Facets seams great but I didn't fully understand the template part
+ ☐ I never render a **PDF** with html templates
+ ☐ I didn't know that I could use django-haystack with Whoosh p.109 offers a great example. I think I might use it for ottawacityjobs and use the search form box as a 'include'
+ ☐ The whoosh implementation seems to magical to me. I need to redo it twice to make sure that I do understand
