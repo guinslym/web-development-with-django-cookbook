@@ -18,6 +18,7 @@ Chapter 1:
    ☐ import os
    ☐ STATIC_ULR = from utils.misc import get_git_changeset(os.getcwd())
  ☐ p.33 I think that overwritting app settings might be tricky to debug. I tend to add my settings in the settings.py not in a file i.e. views.py
+ ☐ models.py I like the way that they already set the fields name of the Models for translation
 
 
  Chapter 2:
