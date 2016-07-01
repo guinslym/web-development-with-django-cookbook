@@ -12,12 +12,12 @@ Chapter 1:
  ☐ Actually, I like the name 'conf' but I still prefer the name 'settings' that I usually adopt in my project.
  ✔ I'm still confuse with the python 2 ('u,'b) compatibility I don't have python 2 installed on my  local machine @done (16-06-30 22:56)
  ☐ I installed Anaconda (python2) and redid the chapter 1 and it works great
- ☐ They use a Signals on their app each time an object is save or delete. I like it. But I prefer to log it instead of printing it.
+ ☐ They use a Signals on their app each time an object is save or delete. I like it. But I prefer to use the __logger__ to log the information instead of printing it.
  ☐ I'm not that into their way to set the static url... it's nice but I need to try it in other project to see if it really worth it
  ☐ shell: 
    ☐ import os
    ☐ STATIC_ULR = from utils.misc import get_git_changeset(os.getcwd())
- ☐ 
+ ☐ p.33 I think that overwritting app settings might be tricky to debug. I tend to add my settings in the settings.py not in a file i.e. views.py
 
 
  Chapter 2:
