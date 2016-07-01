@@ -26,12 +26,11 @@ Chapter 1:
   ☐ p.45 I didn't quite understand the __contenttypes__
   ☐ Also they load the apps.py with __init__.py
   ☐ Utils/
-  ☐ I really like their models.py mixin for URL
-  ☐ The metatags mixin are Genious I'm wondering if django-braces or django-extensions have those mixins
+  ☐ I really like their models.py mixin for __URLs__
+  ☐ The metatags mixin are Genious I'm wondering if django-meta or django-seo have those mixins
   ☐ I had to put some relative import into myproject/conf/dev.py
-  ☐ 
   ☐ They should I put the modification of the example in Bold p52 but others no
-  ☐ This project is still a python2 based 'ImportError: No module named 'urlparse'' in python 3 is urllib.parse
+  ☐ This project is still a python2 based 'ImportError: No module named 'urlparse'' in python 3 is urllib.parse that's why I'm using instead Anaconda Continuum (python 2)
   ☐ I prefer to use django-rosetta instead of the Multilingual Mixin
 
 chapter 3:
