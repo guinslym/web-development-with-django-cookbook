@@ -1,0 +1,702 @@
+[
+    {
+        "fields":{
+            "title":"Crime"
+        },
+        "model":"movies.genre",
+        "pk":1
+    },
+    {
+        "fields":{
+            "title":"Drama"
+        },
+        "model":"movies.genre",
+        "pk":2
+    },
+    {
+        "fields":{
+            "title":"Thriller"
+        },
+        "model":"movies.genre",
+        "pk":3
+    },
+    {
+        "fields":{
+            "title":"Action"
+        },
+        "model":"movies.genre",
+        "pk":4
+    },
+    {
+        "fields":{
+            "title":"Sci-Fi"
+        },
+        "model":"movies.genre",
+        "pk":5
+    },
+    {
+        "fields":{
+            "title":"Horror"
+        },
+        "model":"movies.genre",
+        "pk":6
+    },
+    {
+        "fields":{
+            "title":"Western"
+        },
+        "model":"movies.genre",
+        "pk":7
+    },
+    {
+        "fields":{
+            "first_name":"Quentin",
+            "last_name":"Tarantino"
+        },
+        "model":"movies.director",
+        "pk":1
+    },
+    {
+        "fields":{
+            "first_name":"David",
+            "last_name":"Fincher"
+        },
+        "model":"movies.director",
+        "pk":2
+    },
+    {
+        "fields":{
+            "first_name":"Andy",
+            "last_name":"Wachowski"
+        },
+        "model":"movies.director",
+        "pk":3
+    },
+    {
+        "fields":{
+            "first_name":"Lana",
+            "last_name":"Wachowski"
+        },
+        "model":"movies.director",
+        "pk":4
+    },
+    {
+        "fields":{
+            "first_name":"Stanley",
+            "last_name":"Kubrick"
+        },
+        "model":"movies.director",
+        "pk":5
+    },
+    {
+        "fields":{
+            "first_name":"John",
+            "last_name":"Travolta"
+        },
+        "model":"movies.actor",
+        "pk":1
+    },
+    {
+        "fields":{
+            "first_name":"Uma",
+            "last_name":"Thurman"
+        },
+        "model":"movies.actor",
+        "pk":2
+    },
+    {
+        "fields":{
+            "first_name":"Brad",
+            "last_name":"Pitt"
+        },
+        "model":"movies.actor",
+        "pk":3
+    },
+    {
+        "fields":{
+            "first_name":"Edward",
+            "last_name":"Norton"
+        },
+        "model":"movies.actor",
+        "pk":4
+    },
+    {
+        "fields":{
+            "first_name":"Keanu",
+            "last_name":"Reeves"
+        },
+        "model":"movies.actor",
+        "pk":5
+    },
+    {
+        "fields":{
+            "first_name":"Laurence",
+            "last_name":"Fishburne"
+        },
+        "model":"movies.actor",
+        "pk":6
+    },
+    {
+        "fields":{
+            "first_name":"Carrie-Anne",
+            "last_name":"Moss"
+        },
+        "model":"movies.actor",
+        "pk":7
+    },
+    {
+        "fields":{
+            "rating":5,
+            "genres":[
+                1,
+                2,
+                3
+            ],
+            "actors":[
+                1,
+                2
+            ],
+            "directors":[
+                1
+            ],
+            "title":"Pulp Fiction"
+        },
+        "model":"movies.movie",
+        "pk":1
+    },
+    {
+        "fields":{
+            "rating":5,
+            "genres":[
+                2
+            ],
+            "actors":[
+                3,
+                4
+            ],
+            "directors":[
+                2
+            ],
+            "title":"Fight Club"
+        },
+        "model":"movies.movie",
+        "pk":2
+    },
+    {
+        "fields":{
+            "rating":5,
+            "genres":[
+                4,
+                5
+            ],
+            "actors":[
+                5,
+                6,
+                7
+            ],
+            "directors":[
+                3,
+                4
+            ],
+            "title":"The Matrix"
+        },
+        "model":"movies.movie",
+        "pk":3
+    },
+    {
+        "fields":{
+            "rating":5,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"The Dark Knight"
+        },
+        "model":"movies.movie",
+        "pk":4
+    },
+    {
+        "fields":{
+            "rating":5,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Schindler's List"
+        },
+        "model":"movies.movie",
+        "pk":5
+    },
+    {
+        "fields":{
+            "rating":5,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Inception"
+        },
+        "model":"movies.movie",
+        "pk":6
+    },
+    {
+        "fields":{
+            "rating":5,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Forrest Gump"
+        },
+        "model":"movies.movie",
+        "pk":7
+    },
+    {
+        "fields":{
+            "rating":5,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Se7en"
+        },
+        "model":"movies.movie",
+        "pk":8
+    },
+    {
+        "fields":{
+            "rating":5,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"City of God"
+        },
+        "model":"movies.movie",
+        "pk":9
+    },
+    {
+        "fields":{
+            "rating":5,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"The Silence of the Lambs"
+        },
+        "model":"movies.movie",
+        "pk":10
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+                4
+            ],
+            "directors":[
+
+            ],
+            "title":"American History X"
+        },
+        "model":"movies.movie",
+        "pk":11
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Spirited Away"
+        },
+        "model":"movies.movie",
+        "pk":12
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Memento"
+        },
+        "model":"movies.movie",
+        "pk":13
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"The Green Mile"
+        },
+        "model":"movies.movie",
+        "pk":14
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Back to the Future"
+        },
+        "model":"movies.movie",
+        "pk":15
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+                5,
+                6
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Alien"
+        },
+        "model":"movies.movie",
+        "pk":16
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+                7
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+                1
+            ],
+            "title":"Django Unchained"
+        },
+        "model":"movies.movie",
+        "pk":17
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"The Prestige"
+        },
+        "model":"movies.movie",
+        "pk":18
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+                6
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+                5
+            ],
+            "title":"The Shining"
+        },
+        "model":"movies.movie",
+        "pk":19
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Am\u00e9lie"
+        },
+        "model":"movies.movie",
+        "pk":20
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+                1,
+                2,
+                5
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+                5
+            ],
+            "title":"A Clockwork Orange"
+        },
+        "model":"movies.movie",
+        "pk":21
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Requiem for a Dream"
+        },
+        "model":"movies.movie",
+        "pk":22
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Eternal Sunshine of the Spotless Mind"
+        },
+        "model":"movies.movie",
+        "pk":23
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+                5
+            ],
+            "title":"Full Metal Jacket"
+        },
+        "model":"movies.movie",
+        "pk":24
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"The Wolf of Wall Street"
+        },
+        "model":"movies.movie",
+        "pk":25
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+                1
+            ],
+            "title":"Inglourious Basterds"
+        },
+        "model":"movies.movie",
+        "pk":26
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+                5
+            ],
+            "title":"2001: A Space Odyssey"
+        },
+        "model":"movies.movie",
+        "pk":27
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Pans Labyrinth"
+        },
+        "model":"movies.movie",
+        "pk":28
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"Her"
+        },
+        "model":"movies.movie",
+        "pk":29
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"V for Vendetta"
+        },
+        "model":"movies.movie",
+        "pk":30
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"The Sixth Sense"
+        },
+        "model":"movies.movie",
+        "pk":31
+    },
+    {
+        "fields":{
+            "rating":4,
+            "genres":[
+
+            ],
+            "actors":[
+
+            ],
+            "directors":[
+
+            ],
+            "title":"The Grand Budapest Hotel"
+        },
+        "model":"movies.movie",
+        "pk":32
+    }
+]

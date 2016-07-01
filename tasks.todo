@@ -53,4 +53,5 @@ chapter 3:
  ☐ I added in screenshot/ch-3/ the bulletin_boards/forms.py result I like it! It's genius
  ☐ I also like their login view too in myproject/urls.py I'm wondering if we can do that with python-social-auth
  ☐ how did they get the title 'My Website'???
- ☐ I think they had 'My Website' because the myproject/urls.py //login implies the templates/base.html file
+ ☐ I think they had 'My Website' because the myproject/urls.py //login implies the templates/base.html file -------------NO-NO Django looks at templates/registration/login.html
+ ☐ The way they use the filter for /movies is Genius!! I need to use it for another project
