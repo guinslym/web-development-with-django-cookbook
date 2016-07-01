@@ -22,6 +22,8 @@ class MessageForm(forms.Form):
     def __init__(self, request, *args, **kwargs):
         super(MessageForm, self).__init__(*args, **kwargs)
         self.request = request
+        #we exclude the current user because of the ModelChoiceField
+        #queryset=User.objects.all(),
         self.fields["recipient"].queryset = self.fields["recipient"].queryset.exclude(pk=request.user.pk)
 
     def save(self):
