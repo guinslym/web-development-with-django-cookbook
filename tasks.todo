@@ -23,6 +23,7 @@ Chapter 1:
 
  Chapter 2:
   ☐ They always define an apps.py in their APPS 
+  ☐ p.45 I didn't quite understand the __contenttypes__
   ☐ Also they load the apps.py with __init__.py
   ☐ Utils/
   ☐ I really like their models.py mixin for URL
