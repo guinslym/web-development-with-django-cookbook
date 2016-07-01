@@ -1,20 +1,20 @@
 Knowledge:
  ☐ Second Edition: January 2016
- ☐ 
+ ☐
 
 
 Chapter 1:
  ☐ I had to change to django==1.8.6 I got an error on 1.8.1 in the migration
      ✔ for base in inspect.getmro(new_class) @done (16-06-30 22:55)
      ✔ AttributeError: 'module' object has no attribute 'getmro' @done (16-06-30 22:56)
- ☐ The way they layout their Project is too verbose or too long. It's good for Legacy project but for project with one app I don't think I need all that. 
+ ☐ The way they layout their Project is too verbose or too long. It's good for Legacy project but for project with one app I don't think I need all that.
  ☐ I like the fact that they have manies 'requirements' and 'conf'
  ☐ Actually, I like the name 'conf' but I still prefer the name 'settings' that I usually adopt in my project.
  ✔ I'm still confuse with the python 2 ('u,'b) compatibility I don't have python 2 installed on my  local machine @done (16-06-30 22:56)
  ☐ I installed Anaconda (python2) and redid the chapter 1 and it works great
  ☐ They use a Signals on their app each time an object is save or delete. I like it. But I prefer to use the __logger__ to log the information instead of printing it.
  ☐ I'm not that into their way to set the static url... it's nice but I need to try it in other project to see if it really worth it
- ☐ shell: 
+ ☐ shell:
    ☐ import os
    ☐ STATIC_ULR = from utils.misc import get_git_changeset(os.getcwd())
  ☐ p.33 I think that overwritting app settings might be tricky to debug. I tend to add my settings in the settings.py not in a file i.e. views.py
@@ -22,7 +22,7 @@ Chapter 1:
 
 
  Chapter 2:
-  ☐ They always define an apps.py in their APPS 
+  ☐ They always define an apps.py in their APPS
   ☐ p.45 I didn't quite understand the __contenttypes__
   ☐ Also they load the apps.py with __init__.py
   ☐ Utils/
@@ -34,14 +34,15 @@ Chapter 1:
   ☐ I prefer to use django-rosetta instead of the Multilingual Mixin
 
 chapter 3:
- ☐ Chapter3 has a lot of errors in python3 from 'urlparse', to relative_path (.models), 
+ ☐ I like the way they rendering the template in the urls.py in email_messages apps __'django.shortcuts.render', {'template_name': "email_messages/message_to_user_done.html"}, name="message_to_user_done"),__
+ ☐ Chapter3 has a lot of errors in python3 from 'urlparse', to relative_path (.models),
  ☐ I like the fact they are tranlating every 'label' (forms.py) and fields 'models.py'
  ☐ Interesting it's the first time that I see a **save()** method in a Contact form to send email. And they are right the view looks cleaner. I need to adopt that approach
  ☐ fail silently suppose to be in the brackets
  ☐ For the Quotes app I prefer to use a django-package instead of PIL to generate thumbnail
  ☐ When I save forms  in the view I need to pass the files attributes also **InspirationalQuoteForm(data=request.POST, files=request.FILES) ***
  ☐ Bulletin Board.models is a great example of how to use django-crispy-forms (image pg. 97)
- ☐ 
+ ☐
  ☐ Do up to chapter 3
  ☐ Their Search Facets seams great but I didn't fully understand the template part
  ☐ I never render a **PDF** with html templates
