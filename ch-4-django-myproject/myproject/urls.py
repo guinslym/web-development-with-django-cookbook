@@ -9,9 +9,15 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = i18n_patterns('',
-    url(r'^$', 'django.shortcuts.render', {'template_name': 'index.html'}, name="start_page"),
-    url(r'^js-settings/$', 'utils.views.render_js', {'template_name': 'settings.js'}, name="js_settings"),
-
+    url(r'^$', 'django.shortcuts.render',
+            {'template_name': 'index.html'},
+            name="start_page"
+        ),
+    url(r'^js-settings/$',
+            'utils.views.render_js',
+            {'template_name': 'settings.js'},
+            name="js_settings"
+        ),
     url(r'^locations/', include('locations.urls')),
     url(r'^movies/', include('movies.urls')),
     url(r'^likes/', include('likes.urls')),
