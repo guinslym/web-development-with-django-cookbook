@@ -43,8 +43,6 @@ chapter 3:
  ☐ models.py I didn't know that we can create a function for __upload_to__
  ☐ When I save forms  in the view I need to pass the files attributes also **InspirationalQuoteForm(data=request.POST, files=request.FILES) ***
  ☐ Bulletin Board.models is a great example of how to use django-crispy-forms (image pg. 97)
- ☐ @done
- ☐ Do up to chapter 3
  ☐ Their Search Facets seams great but I didn't fully understand the template part
  ☐ I never render a **PDF** with html templates
  ☐ I didn't know that I could use django-haystack with Whoosh p.109 offers a great example. I think I might use it for ottawacityjobs and use the search form box as a 'include'
@@ -55,3 +53,7 @@ chapter 3:
  ☐ how did they get the title 'My Website'???
  ☐ I think they had 'My Website' because the myproject/urls.py //login implies the templates/base.html file -------------NO-NO Django looks at templates/registration/login.html
  ☐ The way they use the filter for /movies is Genius!! I need to use it for another project
+ ☐ The chapter 3 is really long... to do. it's almost 60 pages
+ ☐ I skip the render to pdf I have no project in mind where I can use it.
+ ☐ The Whoosh/Haystack indexing are Genius!!! I need to implement the __search__ app in another project
+ ☐ for the search in myproject/urls.py they use a __class__ for the CrispyformHelper
