@@ -62,3 +62,13 @@ chapter 3:
 chapter 4:
  ☐ ??? they increase their version of django to 1.8.7??? lol!
  ☐ I didn't know that utils.py was supposed to be in the Installed apps in the previous chapter
+
+ Chapter 5:
+  ☐ I couldn't do __python manage.py migrate__ I had an error __django.db.utils.OperationalError: table "django_content_type" already exists__
+  ☐ { object.created|days_since } don't put the value after the __days_since__ even though the function is written this way __def days_since(value)__ don't do this __{days_since(object.created)}__
+  ☐ I didn't know that I can register another name for a filter i.e __@register.filter(name="humanized_days_since")__
+  ☐ I didn't quite understand the __try_to_include__ template tag
+  ☐ Definetively need to redo this chapter and to look on Github to search for Django project that uses __template tags__
+
+ chapter 6:
+  ☐ 
