@@ -1,5 +1,7 @@
 open notes.todo
 
+![Web Development with Django Cookbook](https://www.packtpub.com/sites/default/files/6898OS_Web%20Development%20with%20Django%20Cookbook_Cover_0.jpg)
+
 ## Review:
 it's a great book to start learning django. I like the fact that it's simple. 
 I don't need too much of a machine (environnment). Some book uses REDIS - DOCKER - RabitMQ. 
