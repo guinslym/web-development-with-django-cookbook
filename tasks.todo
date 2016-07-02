@@ -89,8 +89,9 @@ chapter 4:
   ☐ great overview of django-mptt. 
 
   chapter 9:
+  ☐ Wow!! great now I know how to create Command in Django 
   ☐ I need a tutorial about TastiePie. I know DjangoRestFramework but not TastiePie
   ☐ I couldn't create a superuser for this project???  __django.db.utils.IntegrityError: NOT NULL constraint failed: auth_user.last_login__
  
   chapter 10:
-  ☐ 
+  ☐ use the middleware in an app and add loggers also
