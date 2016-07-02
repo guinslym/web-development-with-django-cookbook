@@ -72,3 +72,13 @@ chapter 4:
 
  chapter 6:
   ☐ The maps doesn't work (p.202)
+
+ chapter 7:
+  ☐ changing the django version to 1.8.4
+  ☐ djangocms-link wasn't installed or added to the requirements
+  ☐ This app didn't work I had some issue with django-reversion ??? I test many version from 1.6 to 2.0 and none of them work and each have different error this is the one for django-reversion==2 __from reversion.revisions import RegistrationError, VersionAdapter---ImportError: cannot import name VersionAdapter__
+  ☐ Unfortunately I will have to skip this chapter
+  
+ chapter 8:
+  ☐ Great I really excited to start this chapter I want to see how django-mptt is different from object filters in chapter 3
+  ☐ 

@@ -10,4 +10,5 @@ djangocms-snippet
 djangocms-teaser
 djangocms-video
 django-reversion
+djangocms-link
 django-sekizai==0.8.2
