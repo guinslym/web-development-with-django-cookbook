@@ -81,6 +81,7 @@ MIDDLEWARE_CLASSES = (
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "debug_toolbar.middleware.DebugToolbarMiddleware",
     "utils.middleware.ThreadLocalMiddleware",
+    "utils.middleware.SuspiciousIPMiddleware",
     "django_mobile.middleware.MobileDetectionMiddleware",
     "django_mobile.middleware.SetFlavourMiddleware",
 )
@@ -132,52 +133,53 @@ DEBUG_TOOLBAR_PANELS = [
     "debug_toolbar.panels.redirects.RedirectsPanel",
 ]
 
+
+# LOGGING
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOGGING = {
-    "version": 1,
-    "disable_existing_loggers": False,
-    "filters": {
-        "require_debug_false": {
-            "()": "django.utils.log.RequireDebugFalse",
-        },
-        "require_debug_true": {
-            "()": "django.utils.log.RequireDebugTrue",
-        },
-    },
-    "handlers": {
-        "console": {
-            "level": "INFO",
-            "filters": ["require_debug_true"],
-            "class": "logging.StreamHandler",
-        },
-        "null": {
-            "class": "django.utils.log.NullHandler",
-        },
-        "mail_admins": {
-            "level": "ERROR",
-            "filters": ["require_debug_false"],
-            "class": "django.utils.log.AdminEmailHandler",
-            "include_html": True,  # <-- the important part
-        }
-    },
-    "loggers": {
-        "django": {
-            "handlers": ["console"],
-        },
-        "django.request": {
-            "handlers": ["mail_admins"],
-            "level": "ERROR",
-            "propagate": False,
-        },
-        "django.security": {
-            "handlers": ["mail_admins"],
-            "level": "ERROR",
-            "propagate": False,
-        },
-        "py.warnings": {
-            "handlers": ["console"],
-        },
-    }
-}
+     'version': 1,
+     'disable_existing_loggers': True,
+     'formatters': {
+         'simple': {
+             'format': '[%(asctime)s] %(levelname)s : %(message)s'
+         },
+         'verbose': {
+             'format': '[%(asctime)s] %(levelname)s %(filename) % : %(message)s'
+         },
+     },
+     'handlers': {
+         'file': {
+             'level': 'INFO',
+             'class': 'logging.FileHandler',
+             'formatter': 'verbose',
+             'filename': BASE_DIR+'/logs/dev.log',
+             'mode': 'a',
+         },
+     },
+     'loggers': {
+         'django': {
+             'handlers': ['file'],
+             'level':'INFO',
+             'propagate': True,
+         },
+         'applications.delivrem.views': {
+             'handlers': ['file'],
+             'level':'INFO',
+             'propagate': True,
+         },
+         'applications.delivrem.utils': {
+             'handlers': ['file'],
+             'level':'INFO',
+             'propagate': True,
+         },
+         'applications.delivrem.tweets': {
+             'handlers': ['file'],
+             'level':'INFO',
+             'propagate': True,
+         },
+     },
+ }
+
 
 CACHES = {
     "default": {

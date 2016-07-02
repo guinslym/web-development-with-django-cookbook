@@ -95,3 +95,8 @@ chapter 4:
  
   chapter 10:
   ☐ use the middleware in an app and add loggers also
+
+ 
+  chapter 11:
+  ☐ use the middleware in an app and add loggers also
+  ☐ I added a middleware but it didn't work. nothing in the logs
