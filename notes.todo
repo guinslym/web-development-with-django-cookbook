@@ -8,7 +8,7 @@ Chapter 1:
      ✔ for base in inspect.getmro(new_class) @done (16-06-30 22:55)
      ✔ AttributeError: 'module' object has no attribute 'getmro' @done (16-06-30 22:56)
  ☐ The way they layout their Project is too verbose or too long. It's good for Legacy project but for project with one app I don't think I need all that.
- ☐ I like the fact that they have manies 'requirements' and 'conf'
+ ☐ I like the fact that they have many 'requirements' and 'conf'
  ☐ Actually, I like the name 'conf' but I still prefer the name 'settings' that I usually adopt in my project.
  ✔ I'm still confuse with the python 2 ('u,'b) compatibility I don't have python 2 installed on my  local machine @done (16-06-30 22:56)
  ☐ I installed Anaconda (python2) and redid the chapter 1 and it works great
