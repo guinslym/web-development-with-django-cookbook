@@ -83,4 +83,10 @@ chapter 4:
   ☐ Great I really excited to start this chapter I want to see how django-mptt is different from object filters in chapter 3
   ☐ I had an error __django.core.exceptions.AppRegistryNotReady: Models aren't loaded yet.__don't know how to resolve this issue. I tryied StackOverFlow but I didn't find an answer **https://stackoverflow.com/questions/25537905/django-1-7-throws-django-core-exceptions-appregistrynotready-models-arent-load**
   ☐ I had to install django-mptt==0.7.2 for this project to work
-  ☐ django-mptt-admin is draggable .... Great!!! p.236
+  ☐ django-mptt-admin is draggable .... Great!!! p.236  
+  ☐ django-mptt-tree offers more details --- I like the collapse and expand-tree filter/view
+  ☐ I didn't know that we can load multiple tags inlines __{% load i18n utility_tags mptt_tags %}__ that's great!!. I use to always put them in different line
+  ☐ great overview of django-mptt. 
+
+  chapter 9:
+  ☐ 
