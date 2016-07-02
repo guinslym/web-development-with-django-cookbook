@@ -4,8 +4,8 @@ open notes.todo
 
 ## Review:
 it's a great book to start learning django. I like the fact that it's simple. 
-I don't need too much of a machine (environnment). Some book uses REDIS - DOCKER - RabitMQ. 
-This book is more like an intro that's what I like about this book. For some scripts in this book it is better to use a Django package like Django-rosetta (model translation) or Django-extensions (Create/Modified date) but this book is dead simple it gives you a way to do it without mentionning those Django packages. 
+I don't need too much of a machine (environnment). Some book uses REDIS - DOCKER - RabitMQ and pretend they are for beginners. I didn't need all thoses software for this book with the exception of one of the chapter that mention Memcached. 
+This book is more like an intro that's what I like about this book. For some scripts in this book, it is better to use a Django package like Django-rosetta (model translation) or Django-extensions (Create/Modified date) but this book is dead simple it gives you a way to do it without mentionning those Django packages. 
 
 I didn't like the fact that sometimes I wanted to do a copy-paste but the copy-paste from the PDF to my code editor doesn't indent properly the code. This book should be the first book or one of the first book to read after doing the basic Django tutorial available on the Django site. The price is 29$ which is afortable.
 
