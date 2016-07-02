@@ -1,4 +1,4 @@
-open tasks.todo
+open notes.todo
 
 ## Review:
 it's a great book to start learning django. I like the fact that it's simple. 
