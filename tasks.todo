@@ -89,4 +89,8 @@ chapter 4:
   ☐ great overview of django-mptt. 
 
   chapter 9:
-  ☐ Markdown seems interesting
+  ☐ I need a tutorial about TastiePie. I know DjangoRestFramework but not TastiePie
+  ☐ I couldn't create a superuser for this project???  __django.db.utils.IntegrityError: NOT NULL constraint failed: auth_user.last_login__
+ 
+  chapter 10:
+  ☐ 
